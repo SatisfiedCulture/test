@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+        <h1>SAU</h1>
+        <p>Mid Sem Exam March 2025</p>
+    </header>
+    <br>
+    <br>
+    <main>
+        <section>
+        <h1>
+            Section Item 1
+        </h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic quas minus voluptatem porro temporibus provident! Est unde consequuntur ea pariatur consectetur a et nulla obcaecati dolor distinctio voluptates fugit eveniet, libero magnam saepe quam atque quod at dignissimos error, deserunt velit minima dicta suscipit! Odit exercitationem molestiae inventore necessitatibus repellendus!</p>
+    
+
+        <button onclick="primary_alert()" style="background-color: rgb(0, 94, 255);">Bg Primary</button>  
+        <button style="background-color: #6c757d;">Bg secondary</button>
+        <button style="background-color: #28a745;">Bg success</button>
+        <button onclick="danger_alert()" style="background-color: #dc3545;">Bg Danger</button>  
+
+        <h3>Tables</h3>
+        <table>
+            <tr>
+                <th>#</th>
+                <th>First</th>
+                <th>Last</th>
+                <th>handle</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Jacoc</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td colspan="2">Larry the bird</td>
+                <td>@twitter</td>
+            </tr>
+        </table>
+
+        <h3>Images</h3>
+        <div class="img_pics" >
+        <img style="width:1200px; height:500px"; src="img1.jpg" alt=""><br>
+        <img style="width: 200px; height:150px;"; src="img2.jpg" alt="">
+        <img style="width:200px; height: 150px;object-fit: cover; border-radius: 5px;" src="img3.jpg" alt="">  
+        <img style="width:200px; height:150px;border-radius: 50%; " src="img4.jpg" alt="">
+        <img style="width:200px; height:150px ;border-radius: 50%;"; src="img5.jpg" alt="">
+        </div>
+        </section>
+
+        <!--for table generation-->
+        <input type="number" id="num" placeholder="Enter a number">
+        <button onclick="generateTable()">Generate Table</button>
+        <div id="output"></div>
+       <!--for numbers-->
+        <label for="number">Enter a number:</label>
+        <input text="number" id="number" placeholder="Enter a number">
+        <button onclick="checkOddEven()">Check Even & Odd</button>
+
+        <button onclick="printNumbers()">Print 1 to 10</button>
+        <button onclick="countDown()">Count Down 5 to 1</button>
+
+        <div id ="output2"></div>
+        
+         <section>
+            <h2>Section Item End</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </section>
+        </main>
+</body>
+</html>
